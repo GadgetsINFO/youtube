@@ -1,0 +1,84 @@
+
+.first{
+   
+    cursor: pointer;
+    position: relative;
+    
+}
+.title{
+        width: 250px;
+        margin-top: 0px;
+        font-size: 14px;
+        margin-bottom: 0px;
+        font-weight: 500;
+        line-height: 16px;
+}
+.author{
+    font-size: 10px;
+    font-family: arial;
+    margin-bottom: 0px;
+    margin-top:5px;
+    color: rgb(105, 104, 104);
+}
+.views{
+    font-size: 10px;
+    font-family: Arial;
+    margin-top:2px;
+    color: rgb(105, 104, 104);
+}
+.box1{
+    width:100%;
+}
+.logos{
+    width: 30px;
+    border-radius: 100px;
+}
+.first1{
+    margin-bottom: 5px;
+}
+.grid_info{
+    display: grid;
+    grid-template-columns: 30px 1fr 1fr;
+}
+.info{
+    margin-left: 5px;
+    width: 100%;
+}
+.grid-blocks{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap:10px;
+    row-gap: 10px;
+  
+}
+.vedio-time{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: absolute;
+    bottom: 12px;
+    right: 3px;
+    font-family:  Roboto,Arial;
+    padding:4px;
+    font-size: 10px;
+
+}
+.notif1{
+    position: relative;
+}
+.notif{
+    position: absolute;
+    background-color: rgb(148, 4, 4);
+    color: white;
+    border-radius: 10px;
+    font-family: Roboto,Arial;
+    font-size: 10px;
+    right: -5px;
+    top: -3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1.5px;
+}

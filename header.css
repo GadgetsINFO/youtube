@@ -1,0 +1,131 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: white;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(217, 214, 214);
+    z-index: 100;
+}
+.left{
+    background-color: rgb(255, 255, 255);
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+}
+.le{
+    width: 26px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.yo{
+    height: 20px;
+}
+.middle{
+    flex: 1;
+    margin-right: 25px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    flex: 1;
+    width: 55px;
+    height: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+    width: 0;
+}
+.searc{
+    height: 33px;
+    width: 55px;
+    border-width: 1px;
+    border-style: solid;
+    margin-left: -1px;
+    border-color: grey;
+    background-color: rgb(236, 229, 229);
+    cursor: pointer;
+}
+.searc,.voice,.uploadic,.apps,.note{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.searc .tool_tip,.voice .tool_tip,.uploadic .tool_tip,.apps .tool_tip,.note .tool_tip{
+    position: absolute;
+    background-color: rgb(115, 111, 111);
+    color: white;
+    padding: 3px 8px 4px 8px;
+    font-size: 13px;
+    border-radius: 3px;
+    bottom: -33px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.searc:hover .tool_tip,.voice:hover .tool_tip,.uploadic:hover .tool_tip,
+.apps:hover .tool_tip,.note:hover .tool_tip{
+    opacity: 1;
+}
+
+.text::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.zoo{
+    width: 25px;
+    padding-top: 4px;
+}
+.zo{
+    width: 20px;
+    margin-top: 4px;
+    margin-right: 1px;
+}
+.voice{
+    height: 33px;
+    width: 33px;
+    border-radius: 20px;
+    border-style: none;
+    margin-left: 10px;
+    background-color: rgb(238, 233, 233);
+    cursor: pointer;
+}
+.right{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 25px;
+    flex-shrink: 0;
+   
+}
+.upload{
+    height: 25px;
+    cursor: pointer;
+}
+.app{
+    height: 25px;
+    cursor: pointer;
+}
+.noti{
+    height: 25px;
+    cursor: pointer;
+}
+.chan{
+    height: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+}
